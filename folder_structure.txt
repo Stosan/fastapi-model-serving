@@ -1,0 +1,23 @@
+
+fastapi_model_serving/
+    ├── requirements.txt
+    ├── Dockerfile
+    ├── Makefile
+    docs/
+    ├── docker-compose.yml
+    src/
+        pipeline/
+            ├── prediction.py
+            ├── preprocessing.py
+        config/
+            ├── settings.py
+        utils/
+            ├── params.py
+            ├── model_loader.py
+        schema/
+        artifact/
+        ├── main.py
+
+
+
+
