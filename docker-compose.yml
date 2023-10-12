@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  dfa23-ml-demo-server:
+    container_name: DFA23 ML Demo Server
+    restart: always
+    env_file: ./.env
+    build: .
+    image: dfa23-ml-demo-server:13102023
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
