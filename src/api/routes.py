@@ -4,8 +4,8 @@ import os
 from fastapi import APIRouter,status, HTTPException,Depends,Response
 import secrets
 from fastapi.responses import JSONResponse,FileResponse
-from src.v1.server_configs.config.appconfig import auth_user,auth_password
-from src.v1.server_configs.config.settings import get_setting
+from src.config.appconfig import auth_user,auth_password
+from src.config.settings import get_setting
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 
 

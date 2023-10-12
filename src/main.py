@@ -1,7 +1,7 @@
 # Import required modules
-import asyncio,gc,schedule,time
+import asyncio,gc,time
 from fastapi import FastAPI, status
-from src.v1.server_configs.config.settings import get_setting
+from src.config.settings import get_setting
 from fastapi.middleware.cors import CORSMiddleware
 import gunicorn
 from src.config.appconfig import app_port
