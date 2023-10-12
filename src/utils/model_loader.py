@@ -1,0 +1,1 @@
+#dynamically load the latest model from the model registry
