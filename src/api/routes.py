@@ -62,3 +62,9 @@ async def ApiHome(username: str = Depends(get_current_username)):
             }
 
 
+# Define the home router
+@router.get("/inference/predict",status_code=status.HTTP_200_OK)
+async def Prediction(username: str = Depends(get_current_username)):
+    pass
+
+
